@@ -1,0 +1,23 @@
+# hybrid class:
+
+class grand_parent:
+    def func1(self):
+        print("this is function one")
+
+class parent1(grand_parent):
+    def func2(self):
+        print("this is function two")
+
+class parent2(grand_parent):
+    def func3(self):
+        print("this is function three")
+
+class child(parent1, parent2):
+    def func4(self):
+        print("this is function four")
+
+c = child()
+c.func1()
+c.func2()
+c.func3()
+c.func4()
