@@ -2,7 +2,7 @@
 
 class grand_parent:
     def func1(self):
-        print("this is function one")
+        print("this is functions one")
 
 class parent1(grand_parent):
     def func2(self):
